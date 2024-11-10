@@ -12,3 +12,16 @@
     --palette-on-surface: #000000;
     --palette-on-error: #ffffff;
 }
+
+[data-theme="dark"] {
+    --palette-primary: #bb86fc;
+    --palette-primary-variant: #d0bcff;
+    --palette-secondary: #03dac6;
+    --palette-secondary-variant: #018786;
+    --palette-background: #121212;
+    --palette-surface: #121212;
+    --palette-error: #cf6679;
+    --palette-on-primary: #000000;
+    --palette-on-secondary: #000000;
+    --palette-on-background: #ffffff;
+}

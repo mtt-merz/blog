@@ -1,0 +1,11 @@
+.iconButton {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 1em;
+    color: var(--palette-primary);
+
+    &:hover {
+        color: var(--palette-primary-variant);
+    }
+}

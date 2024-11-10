@@ -1,0 +1,7 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px var(--palette-on-background);
+    position: sticky;
+    top: 0
+}

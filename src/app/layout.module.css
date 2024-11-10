@@ -2,12 +2,11 @@
     display: flex;
     justify-content: center;
 
-    & > main {
+    & > div {
         flex: 1;
         max-width: 1000px;
         min-height: 100dvh;
         margin: auto 1rem;
-        border: solid 1px black;
 
         @media screen and (min-width: 768px) {
             margin: auto 5rem;
