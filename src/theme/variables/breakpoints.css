@@ -1,0 +1,13 @@
+/*
+    These breakpoints are just for reference,
+    DO NOT USE inside media queries, they will break them.
+*/
+
+:root {
+    --breakpoint-xs: 576px; /* Extra Small: phones */
+    --breakpoint-sm: 768px; /* Small: large phones, small tablets */
+    --breakpoint-md: 992px; /* Medium: tablets, small laptops */
+    --breakpoint-lg: 1200px; /* Large: laptops, desktops */
+    --breakpoint-xl: 1440px; /* Extra Large: large desktops */
+    --breakpoint-xxl: 1600px; /* Ultra-wide screens */
+}

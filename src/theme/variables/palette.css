@@ -1,0 +1,14 @@
+:root {
+    --palette-primary: #6200ee;
+    --palette-primary-variant: #3700b3;
+    --palette-secondary: #03dac6;
+    --palette-secondary-variant: #018786;
+    --palette-background: #ffffff;
+    --palette-surface: #ffffff;
+    --palette-error: #b00020;
+    --palette-on-primary: #ffffff;
+    --palette-on-secondary: #000000;
+    --palette-on-background: #000000;
+    --palette-on-surface: #000000;
+    --palette-on-error: #ffffff;
+}

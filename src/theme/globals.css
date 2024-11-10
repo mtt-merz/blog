@@ -1,0 +1,10 @@
+@import "./variables/palette.css";
+@import "variables/breakpoints.css";
+
+* {
+    box-sizing: border-box;  /* width/height includes padding & border */
+}
+
+body {
+    margin: 0;
+}
