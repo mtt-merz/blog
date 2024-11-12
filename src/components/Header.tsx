@@ -3,6 +3,7 @@ import ToggleThemeButton from "@/components/ToggleThemeButton";
 import Link from "next/link";
 import { cookies } from "next/headers";
 import { getThemeFromCookies } from "@/utils/theme";
+import Image from "next/image";
 
 export default async function Header() {
   const theme = getThemeFromCookies(await cookies());
@@ -10,7 +11,7 @@ export default async function Header() {
   return (
     <header className={styles.header}>
       <Link href="/home">
-        <h1>MUKKEY</h1>
+        <Image src={"/logo.png"} alt="logo" height={60} width={176} />
       </Link>
 
       <ToggleThemeButton initialTheme={theme} />
