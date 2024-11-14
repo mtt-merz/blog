@@ -1,8 +1,8 @@
 import "@/theme/globals.css";
 import { PropsWithChildren } from "react";
-import styles from "./layout.module.css";
 import { cookies } from "next/headers";
 import { getThemeFromCookies } from "@/utils/theme";
+import App from "@/components/App";
 
 export const metadata = {
   title: "mukkey",
@@ -13,8 +13,8 @@ export default async function RootLayout({ children }: PropsWithChildren) {
 
   return (
     <html lang="en">
-      <body data-theme={theme} className={styles.container}>
-        <div>{children}</div>
+      <body data-theme={theme}>
+        <App>{children}</App>
       </body>
     </html>
   );
