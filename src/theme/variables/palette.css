@@ -1,5 +1,6 @@
 :root {
     --palette-primary: #6200ee;
+    --palette-primary-hover: #6200ee22;
     --palette-primary-variant: #3700b3;
     --palette-secondary: #03dac6;
     --palette-secondary-variant: #018786;
@@ -15,6 +16,7 @@
 
 [data-theme="dark"] {
     --palette-primary: #bb86fc;
+    --palette-primary-hover: #bb86fc22;
     --palette-primary-variant: #d0bcff;
     --palette-secondary: #03dac6;
     --palette-secondary-variant: #018786;

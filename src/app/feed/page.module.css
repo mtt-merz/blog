@@ -1,0 +1,15 @@
+.section {
+    border-radius: 1rem;
+    padding: 1rem;
+
+    transition: background-color .2s ease;
+
+    &:hover {
+        background-color: var(--palette-primary-hover);
+    }
+}
+
+.a {
+    text-decoration: none;
+    color: inherit;
+}
