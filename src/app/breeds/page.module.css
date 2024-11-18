@@ -1,0 +1,35 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.article {
+    display: flex;
+    position: relative;
+    border-radius: 1rem;
+
+    & img {
+        z-index: 0;
+        position: relative;
+        height: 20rem;
+        width: 100%;
+        object-fit: cover;
+        object-position: bottom;
+        border-radius: 1rem;
+        mask-image: linear-gradient(to bottom, var(--palette-on-background), transparent 120%);
+    }
+
+    & div {
+        position: absolute;
+        bottom: 0;
+        padding: 1rem 2rem;
+
+        & > h1 {
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+    }
+
+}

@@ -17,18 +17,6 @@
             max-width: 1000px;
         }
 
-        &:has(header) {
-            position: sticky;
-            top: 0;
-            backdrop-filter: blur(10px);
-
-            & > header {
-                display: flex;
-                justify-content: space-between;
-                margin: .5rem auto;
-            }
-        }
-
         &:has(main) {
             flex: 1;
         }
@@ -36,6 +24,39 @@
         &:has(footer) {
             text-align: center;
         }
+    }
+}
+
+.container div:has(header) {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(to bottom, var(--palette-background) 10%, transparent);
+    z-index: 1;
+    transition: background 0.5s ease, color 0.5s ease;
+
+    & > header {
+        display: flex;
+        justify-content: space-between;
+        margin: .5rem auto;
+    }
+}
+
+.headerGroup {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+
+    & a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    & > li {
+        display: flex;
+        align-items: end;
+        list-style: none;
     }
 }
 

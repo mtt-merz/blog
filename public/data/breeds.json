@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Holstein Friesian",
+    "description": "A breed of dairy cattle known for its high milk production and distinctive black-and-white or red-and-white spotted coat.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Holstein_Friesian_UK_Yorkshire_July_2011.jpg",
+    "wiki_link": "https://en.wikipedia.org/wiki/Holstein_Friesian_cattle"
+  },
+  {
+    "name": "Angus",
+    "description": "A breed of beef cattle originating from Scotland, known for its solid black or red coat and high-quality meat production.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/2009-red-angus.jpg",
+    "wiki_link": "https://en.wikipedia.org/wiki/Angus_cattle"
+  },{
+    "name": "Hereford",
+    "description": "A beef cattle breed known for its red body and white face, originally from Herefordshire, England, and prized for its adaptability and meat quality.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Hereford_Calf_Portrait%2C_SC%2C_Vic%2C_13.10.2007_edit.jpg",
+    "wiki_link": "https://en.wikipedia.org/wiki/Hereford_cattle"
+  },
+  {
+    "name": "Jersey",
+    "description": "A small dairy cattle breed from the island of Jersey, valued for its rich, high-fat-content milk and gentle temperament.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Bou%C3%ABts_d%27J%C3%A8rri_%C3%8Agypte_5_J%C3%A8rri_Mai_2009.jpg",
+    "wiki_link": "https://en.wikipedia.org/wiki/Jersey_cattle"
+  },
+  {
+    "name": "Charolais",
+    "description": "A large French beef cattle breed known for its cream or white coat, rapid growth rate, and lean, high-quality meat.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Charolais_cattle%2C_Sierra_Nevada%2C_Venezuela.jpg",
+    "wiki_link": "https://en.wikipedia.org/wiki/Charolais_cattle"
+  },
+  {
+    "name": "Simmental",
+    "description": "One of the oldest and most widely distributed cattle breeds, originating from Switzerland, known for its versatility in meat, milk, and draught work.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Simmentaler_Fleckvieh.jpg",
+    "wiki_link": "https://en.wikipedia.org/wiki/Simmental_cattle"
+  },
+  {
+    "name": "Limousin",
+    "description": "A French breed of beef cattle, recognized for its golden-red coat, robustness, and excellent meat yield.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Vache-de-race-limousine-en-correze-2.jpg",
+    "wiki_link": "https://en.wikipedia.org/wiki/Limousin_cattle"
+  },
+  {
+    "name": "Brahman",
+    "description": "A breed originating from India, known for its hump, loose skin, and tolerance to heat and insects, commonly used in tropical regions.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Brahman_bull.jpg",
+    "wiki_link": "https://en.wikipedia.org/wiki/Brahman_cattle"
+  },
+  {
+    "name": "Scottish Highland",
+    "description": "A rugged breed from Scotland, famous for its long horns and thick, shaggy coat, well-suited for harsh climates.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cow_on_Pupers.jpg/987px-Cow_on_Pupers.jpg",
+    "wiki_link": "https://en.wikipedia.org/wiki/Highland_cattle"
+  },
+  {
+    "name": "Guernsey",
+    "description": "A dairy cattle breed from the island of Guernsey, known for its rich, golden-yellow milk and distinctive fawn and white coat.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Guernsey_cow_or_calf_lying_on_the_ground%2C_ca_1941-42.jpg/1037px-Guernsey_cow_or_calf_lying_on_the_ground%2C_ca_1941-42.jpg",
+    "wiki_link": "https://en.wikipedia.org/wiki/Guernsey_cattle"
+  },
+  {
+    "name": "Dexter",
+    "description": "A small, dual-purpose breed originating from Ireland, valued for both milk and meat production, as well as its hardiness.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Dexter%E2%80%93Rinder_Esterauniederung_02_%28cropped%29.JPG/961px-Dexter%E2%80%93Rinder_Esterauniederung_02_%28cropped%29.JPG",
+    "wiki_link": "https://en.wikipedia.org/wiki/Dexter_cattle"
+  },
+  {
+    "name": "Ayrshire",
+    "description": "A hardy dairy breed from Scotland, known for its efficient milk production and reddish-brown and white spotted coat.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Ayrshire_cow.jpg",
+    "wiki_link": "https://en.wikipedia.org/wiki/Ayrshire_cattle"
+  },
+  {
+    "name": "Galloway",
+    "description": "A heritage Scottish beef breed known for its curly coat, resilience in cold climates, and high-quality marbled meat.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Galloway.jpg/960px-Galloway.jpg",
+    "wiki_link": "https://en.wikipedia.org/wiki/Galloway_cattle"
+  },
+  {
+    "name": "Zebu",
+    "description": "A tropical breed known for its hump, dewlap, and resistance to heat, insects, and diseases, commonly found in South Asia.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Female_zebu_cattle.JPG/959px-Female_zebu_cattle.JPG",
+    "wiki_link": "https://en.wikipedia.org/wiki/Zebu"
+  },
+  {
+    "name": "Belted Galloway",
+    "description": "A striking beef breed from Scotland with a distinctive white belt around its middle, prized for its flavorful meat and adaptability.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Belted_Galloway_cow_J4.jpg/1016px-Belted_Galloway_cow_J4.jpg",
+    "wiki_link": "https://en.wikipedia.org/wiki/Belted_Galloway"
+  },
+  {
+    "name": "Red Poll",
+    "description": "A dual-purpose breed from England, known for its docility, reddish-brown coat, and suitability for both milk and meat production.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Red_Poll_heifers.JPG/1280px-Red_Poll_heifers.JPG",
+    "wiki_link": "https://en.wikipedia.org/wiki/Red_Poll"
+  }
+]
