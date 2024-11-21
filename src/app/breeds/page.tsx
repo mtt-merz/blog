@@ -1,5 +1,6 @@
 import { Breed } from "@/models/Breed";
 import styles from "./page.module.css";
+import { BreedArticle } from "@/app/breeds/_components/BreedArticle";
 
 export default async function BreedsPage() {
   const data = await import("@public/data/breeds.json");
@@ -8,14 +9,7 @@ export default async function BreedsPage() {
   return (
     <div className={styles.grid}>
       {breeds.map((breed) => (
-        <article key={breed.name} className={styles.article}>
-          <img src={breed.image} alt={breed.name} />
-
-          <div>
-            <h1>{breed.name}</h1>
-            <p>{breed.description}</p>
-          </div>
-        </article>
+        <BreedArticle key={breed.name} {...breed} />
       ))}
     </div>
   );
