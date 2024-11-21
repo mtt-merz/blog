@@ -13,9 +13,19 @@ export default async function App({ children }: PropsWithChildren) {
     <div className={styles.container}>
       <div>
         <header>
-          <Link href="/home">
-            <Image src={"/logo.png"} alt="logo" height={60} width={176} />
-          </Link>
+          <nav className={styles.headerGroup}>
+            <Link href="/home">
+              <Image src={"/logo.png"} alt="logo" height={60} width={176} />
+            </Link>
+
+            <ul className={styles.headerGroup}>
+              <li>
+                <Link href="/breeds">
+                  <h2>Breeds </h2>
+                </Link>
+              </li>
+            </ul>
+          </nav>
 
           <ToggleThemeButton initialTheme={theme} />
         </header>

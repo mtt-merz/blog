@@ -5,10 +5,23 @@
     box-sizing: border-box;  /* width/height includes padding & border */
 }
 
+html {
+    font-family: var(--font-poppins);
+}
+
 body {
     margin: 0;
     background-color: var(--palette-background);
     color: var(--palette-on-background);
 
     transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-gluten);
+    font-weight: 500;
+}
+
+h1, h2, h3, p {
+    word-break: break-word;
 }
