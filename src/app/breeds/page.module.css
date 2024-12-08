@@ -1,25 +1,34 @@
 .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
     padding: 1rem;
+
+    @media screen and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    }
 }
 
 .article {
     display: flex;
     position: relative;
     border-radius: 1rem;
-    height: 20rem;
+    height: 80vh;
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+        height: 25rem;
+    }
 }
 
 .article > img {
     z-index: 0;
     position: relative;
-    width: 100%;
     object-fit: cover;
     object-position: bottom;
     border-radius: 1rem;
-    mask-image: linear-gradient(to bottom, var(--palette-on-background), transparent 120%);
+    mask-image: linear-gradient(to bottom, black, transparent 120%);
 }
 
 .article > div {
@@ -39,32 +48,28 @@
 
     & > a {
         position: absolute;
-        top: 0;
+        top: 1rem;
         right: 0;
         padding: inherit;
         display: flex;
         justify-content: flex-end;
         align-items: center;
         gap: .5rem;
-        color: transparent;
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: underline;
-        }
+        visibility: hidden;
     }
 
     &:hover {
         background-color: var(--palette-primary);
-        color: var(--palette-on-primary);
-        justify-content: center;
+        justify-content: flex-end;
 
-        & > a {
-            color: var(--palette-on-primary);
+        @media screen and (min-width: 768px) {
+            justify-content: center;
         }
 
-        & > h1, & > p {
-            transform: translateY(-20px);
+        & > h1, & > p, & > a {
+            color: var(--palette-on-primary);
+            visibility: inherit;
+            transform: translateY(-1rem);
             transition: transform 0.2s;
         }
     }

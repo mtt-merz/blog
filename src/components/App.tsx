@@ -15,7 +15,13 @@ export default async function App({ children }: PropsWithChildren) {
         <header>
           <nav className={styles.headerGroup}>
             <Link href="/home">
-              <Image src={"/logo.png"} alt="logo" height={60} width={176} />
+              <Image
+                src={"/logo.png"}
+                alt="logo"
+                height={60}
+                width={176}
+                priority
+              />
             </Link>
 
             <ul className={styles.headerGroup}>
